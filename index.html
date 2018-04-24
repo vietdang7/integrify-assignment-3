@@ -6,8 +6,8 @@
     <link rel="stylesheet" href="./css/main.css">
   </head>
   <body>
-    <header class="top-border">
-      <img src="./img/logo.png" alt="Groovy logo">
+    <header class="top-border" id="top">
+      <img src="./img/logo.png" alt="Groovy logo" class="logo">
       <nav>
         <div class="nav-item">
           <a href="#">HOME</a>
@@ -26,77 +26,91 @@
           <p>No sidebar</p>
         </div>
 
-        
+
       </nav>
     </header><!-- end header -->
     <section>
-      <div class="articles">
-        <article class="">
-          <img src="./img/brookbridge.jpg" alt="Sample image">
+      <div class="articles  ">
+        <article class="top-border">
+          <img src="./img/brookbridge.jpg" alt="Sample image" class="image">
           <h3>Contrary to popular belief, Lorem Ipsum is not simply random text</h3>
           <h5>Post in <span>Facebook</span> by <span>Mythemeshop</span> on May 28,2016</h5>
           <hr>
           <p>Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
           <hr>
-          <a href="#">Read more</a>
+          <p class="more"><a href="#">Read more</a></p>
         </article>
-        <article class="">
-          <img src="./img/434434.jpeg" alt="Sample image">
+        <article class="top-border">
+          <img src="./img/434434.jpeg" alt="Sample image" class="image">
           <h3>Contrary to popular belief, Lorem Ipsum is not simply random text</h3>
           <h5>Post in <span>Facebook</span> by <span>Mythemeshop</span> on May 28,2016</h5>
           <hr>
           <p>Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
           <hr>
-          <a href="#">Read more</a>
+          <p class="more"><a href="#">Read more</a></p>
         </article>
-        <div class="pagination">
-          <a href="#">1</a>
+        <div class="pagination top-border">
+          <a href="#" class="current-page">1</a>
           <a href="#">2</a>
           <a href="#">3</a>
         </div>
       </div><!-- end articles -->
 
       <aside class="">
-        <div class="big-ad">
+        <div class="big-ad top-border center">
           <img src="./img/300x250.png" alt="Big ad">
         </div> <!-- end big ad -->
-        <div class="tab">
-
+        <div class="tab top-border center">
+          <p>Tab is here</p>
         </div> <!-- end tab section -->
-        <div class="search">
-
+        <div class="search top-border center">
+          <p>Search</p>:
+          <input type="text" name="search" value="" height="24px">
         </div><!-- end search section -->
-        <div class="small-ad">
+        <div class="small-ad top-border center">
           <h3>OUR SPONSORS</h3>
-          <img src="./img/125x125.png" alt="small ad">
-          <img src="./img/125x125.png" alt="small ad">
+          <div class="small-ad-container">
+            <img src="./img/125x125.png" alt="small ad">
+            <img src="./img/125x125.png" alt="small ad">
+          </div>
+
         </div>
       </aside> <!-- end aside -->
     </section><!-- end section -->
 
-    <footer>
+    <footer class="top-border">
       <div class="footer-col">
         <div class="about">
           <h3>Lorem ipsum dolor sit amet </h3>
           <hr>
-          <p>consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
         <div class="recent-post">
           <h3>Recent post </h3>
           <hr>
-          <a href="#">Sample link 1</a>
-          <a href="#">Sample link 2</a>
-          <a href="#">Sample link 3</a>
-          <a href="#">Sample link 4</a>
+          <ul>
+            <li><a href="#">Sample link 1</a></li>
+            <li><a href="#">Sample link 2</a></li>
+            <li><a href="#">Sample link 3</a></li>
+            <li><a href="#">Sample link 4</a></li>
+          </ul>
+
+
+
+
         </div>
         <div class="tag">
-
+          <h3>Tag </h3>
+          <hr>
+          <p class="tag-decor">Tag 1</p>
+          <p class="tag-decor">Tag 2</p>
+          <p class="tag-decor">Tag 3</p>
         </div>
       </div><!-- end footer-col -->
       <hr>
       <div class="copy-right-text">
-        <p><span>Groovy Theme Demo</span> Copyright 2018</p>
-        <p>Theme by <span>MyThemeShop</span>. Back to top ↑</p>
+        <p><span class="bolder">Groovy Theme Demo</span> Copyright 2018</p>
+        <p>Theme by <span class="bolder">MyThemeShop</span>. <a href="#top">Back to top ↑</a></p>
       </div>
 
     </footer> <!-- end footer -->
