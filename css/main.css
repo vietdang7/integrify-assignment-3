@@ -9,3 +9,9 @@ footer {
   width: 80vw;
   margin: 0 auto;
 }
+/* Header section */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
