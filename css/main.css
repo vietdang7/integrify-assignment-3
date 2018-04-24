@@ -12,11 +12,16 @@ footer {
   width: 80vw;
   margin: 0 auto;
 }
+.top-border {
+  border-top: 4px solid #e5893b;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 20px 30px;
+}
 /* Header section */
 header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: white;
-  border-top: ;
 }
